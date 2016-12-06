@@ -1,0 +1,13 @@
+body {
+    padding-top: 30px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    overflow-y: scroll;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+    padding-right: 17px;
+}
