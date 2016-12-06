@@ -41,7 +41,7 @@ Then continue on the get bash terminal :
 ```
 $ vagrant up
 $ vagrant ssh
-$ cd legacy-tasking-system
+$ cd legacy*
 $ php artisan migrate
 ```
 
