@@ -27,6 +27,18 @@ this it will open the git bash terminal.
 ```
 $ composer install
 $ vendor/bin/homestead make
+```
+Edit Homestead.yaml :
+* At line 19, change "homestead.app" to :
+```
+- map: tasking.dev
+```
+* At line 23, change "homestead" to :
+```
+    - legacy_task
+```
+Then continue on the get bash terminal :
+```
 $ vagrant up
 $ vagrant ssh
 $ cd legacy-tasking-system
